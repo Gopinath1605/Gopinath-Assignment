@@ -1,0 +1,266 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+   
+    background-color:black;
+    color:lime;
+}
+nav
+{
+    background:linear-gradient(182deg,#0047ff 0%, #d600ff 80%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logo
+{
+    margin-left: 40px;
+    
+}
+
+h1{
+    margin-top: 30px;
+    margin-left: 40px;
+    color: red;
+    animation: rose 10s linear infinite;
+}
+@keyframes rose {
+    0%
+    {
+        color:red;
+    }
+    20%
+    {
+        color:darkturquoise;
+    }
+    40%
+    {
+        color:blue
+    }
+    60%
+    {
+        color:green;
+    }
+    80%
+    {
+        color:lime;
+    }
+    100%
+    {
+        color:red;
+    }
+    
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    width:60%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+nav ul:hover{
+    color: yellow;
+}
+.container
+{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 5px;
+    margin-top: 50px;
+    
+
+}
+.container > div{
+    width: 410px;
+    height:410px;
+    
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container > div p{
+    color: blue;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.container p{
+    text-decoration: none;
+}
+.container > div p:hover{
+    color: lime;
+    font-size: 40px;
+    text-decoration: none;
+
+}
+.container > div h2{
+    font-size: 70px;
+}
+
+.bg-1
+{
+    background-image: url("https://orient.com.pk/cdn/shop/articles/season_end_sale.jpg?v=1597754442");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-2
+{
+    
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/e1bd7275130243.5e19f73ab2729.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-3
+{
+    
+    background-image: url("https://www.easemytrip.com/images/offer-img/rapido100-lp.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-4
+{
+    
+    background-image: url("https://taggbox.com/blog/wp-content/uploads/2018/07/LinkedIn.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-5
+{
+    
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrLesv-p8fV81GPK2seeb2-WyQr7Acm1dOcw&s");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-6
+{
+    
+    background-image: url("https://multiqos.com/blogs/wp-content/uploads/2022/03/How-To-Build-a-Meat-Delivery-App-Like-Licious.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-7
+{
+    
+    background-image: url("https://d1csarkz8obe9u.cloudfront.net/posterpreviews/dairy-products-instagram-ad-design-template-d56a3ffefd28b4cde874b739ceb5b663_screen.jpg?ts=1691422470");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-8
+{
+    
+    background-image: url("https://neetable.com/img/blog/blog-inner/big-basket-grocery-delivery-app/cost-to-develop-a-grocery-delivery-app-like-big-basket.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-9
+{
+    
+    background-image: url("https://5.imimg.com/data5/SELLER/Default/2022/12/ZR/IT/MZ/74879394/customized-acrylic-spotify-plaque-with-photo-500x500.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-10
+{
+    
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC3OjAL0NVUQvtwyRLh9uNZktDHKwTs64rNA&s");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-11
+{
+    
+    background-image: url("https://pimwp.s3-accelerate.amazonaws.com/2023/05/makemytrip-is-hoping-international-flights-will-start-from-july-but-it-is-also-preparing-for-many-quarters-of-big-losses.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-12
+{
+    
+    background-image: url("https://t4.ftcdn.net/jpg/00/50/75/49/360_F_50754925_4d2qzfiZfmrJYSRsq18OpAAIpQzmyMMt.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container > div:hover{
+    opacity: 0.8;
+    transform: scale(0.98);
+}
+footer{
+    background-color: #111;
+}
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px ;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: lime;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0,9;
+}
+/* Hover affect on social media icon */
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: lime;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 2em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+    color: lime;
+}
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+    color: lime;
+}
